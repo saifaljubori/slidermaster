@@ -14,7 +14,6 @@
       a.href="#random";
       a.rel=r;
       a.onclick=function(){fetchLuck(this.rel)};
-     
-
+          a.innerHTML="عشوائياً";
 ";
       document.getElementById("myLuckyPost").appendChild(a)}
