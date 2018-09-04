@@ -14,5 +14,5 @@
       a.href="#random";
       a.rel=r;
       a.onclick=function(){fetchLuck(this.rel)};
-      a.innerHTML="شاهد موضوعاً عشوائياً";
+      a.innerHTML="";
       document.getElementById("myLuckyPost").appendChild(a)}
