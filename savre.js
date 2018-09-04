@@ -14,7 +14,7 @@
       a.href="#random";
       a.rel=r;
       a.onclick=function(){fetchLuck(this.rel)};
-      a.innerHTML="<i class="fas fa-random"></i>
+     
 
 ";
       document.getElementById("myLuckyPost").appendChild(a)}
