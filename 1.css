@@ -7,12 +7,22 @@
   top: -176px;
   left: -192px;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 375px){
   .slideshow-container{
  top: -116px !important;
     left: 0 !important;
   
   }
+  @media screen and (max-width: 500px){
+  .slideshow-container{
+    top: -155px !important;
+    padding: 30px !important;
+    left: -30px !important;
+  }
+  }
+  
+  
+  
 }
 /* Next & previous buttons */
 .prev, .next {
