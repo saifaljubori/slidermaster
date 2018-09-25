@@ -13,6 +13,7 @@
     left: 0 !important;
   
   }
+}
   @media screen and (max-width: 500px){
   .slideshow-container{
     top: -155px !important;
